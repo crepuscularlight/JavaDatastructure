@@ -48,13 +48,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GenericLaucher">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <configuration name="DLList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DLList" />
+      <module name="DoublyLinkedLIsts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericLaucher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericLaucher" />
       <module name="DoublyLinkedLIsts" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -76,27 +84,28 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericLaucher" />
         <item itemvalue="Application.DLList" />
       </list>
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1281" height="163" key="GridCell.Tab.0.bottom" timestamp="1605340377473">
+    <state width="1281" height="163" key="GridCell.Tab.0.bottom" timestamp="1605342726568">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605340377473" />
-    <state width="1281" height="163" key="GridCell.Tab.0.center" timestamp="1605340377473">
+    <state width="1281" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605342726568" />
+    <state width="1281" height="163" key="GridCell.Tab.0.center" timestamp="1605342726568">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605340377473" />
-    <state width="1281" height="163" key="GridCell.Tab.0.left" timestamp="1605340377472">
+    <state width="1281" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605342726568" />
+    <state width="1281" height="163" key="GridCell.Tab.0.left" timestamp="1605342726567">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605340377472" />
-    <state width="1281" height="163" key="GridCell.Tab.0.right" timestamp="1605340377473">
+    <state width="1281" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605342726567" />
+    <state width="1281" height="163" key="GridCell.Tab.0.right" timestamp="1605342726568">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605340377473" />
+    <state width="1281" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605342726568" />
     <state width="1281" height="203" key="GridCell.Tab.1.bottom" timestamp="1605340140370">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

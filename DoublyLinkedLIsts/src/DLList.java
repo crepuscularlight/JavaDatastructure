@@ -10,6 +10,7 @@ public class DLList {
             this.data = x;
             this.next = next;
             this.prev = prev;
+            
         }
     }
 
