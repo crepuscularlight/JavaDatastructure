@@ -27,7 +27,7 @@ public class BST {
 
     public Node insertRec(Node root, int data) {
         if (root == null) {
-            return root = new Node(data);
+            root = new Node(data);
         }
 
         if (data < root.key) {
@@ -51,6 +51,42 @@ public class BST {
         }
     }
 
+    public void deleteKey(int key) {
+        root = deleteRec(root, key);
+    }
+
+    public Node deleteRec(Node root, int key) {
+        if (root == null) {
+            return root;
+        }
+        if (key < root.key) {
+            root.left = deleteRec(root.left, key);
+        } else if (key > root.key) {
+            root.right = deleteRec(root.right, key);
+        } else {
+            if (root.left == null)
+                return root.right;
+            else if (root.right == null)
+                return root.left;
+            root.key = minValue(root.right);
+            root.right = deleteRec(root.right, root.key);
+
+        }
+
+        return root;
+
+    }
+
+    int minValue(Node root) {
+        int minVal = root.key;
+        while (root.left != null) {
+            minVal = root.left.key;
+            root = root.left;
+        }
+        return minVal;
+    }
+
+
     public static void main(String[] args) {
         BST tree = new BST(100);
         tree.insert(50);
@@ -60,6 +96,7 @@ public class BST {
         tree.insert(70);
         tree.insert(60);
         tree.insert(80);
+        tree.deleteKey(50);
 
         tree.inorder();
 
